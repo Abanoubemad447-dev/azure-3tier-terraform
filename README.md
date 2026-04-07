@@ -18,9 +18,6 @@ The architecture includes:
 
 ![Architecture Diagram](./docs/architecture.png)
 
-> Use the generated architecture image and save it in your repo as `docs/architecture.png`.
-
-> 📌 Place your architecture image at `docs/architecture.png` (or update the path above).
 
 ```
 Frontend (Docker) ---> Backend (Docker) ---> PostgreSQL Database
