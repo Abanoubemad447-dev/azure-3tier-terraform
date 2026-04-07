@@ -16,9 +16,13 @@ The architecture includes:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/57e60308-ee2c-49eb-bf2a-05a4cc50777f" />
-)
+![Architecture Diagram](./docs/architecture.png)
 
+> Use the generated architecture image and save it in your repo as `docs/architecture.png`.
+
+> 📌 Place your architecture image at `docs/architecture.png` (or update the path above).
+
+```
 Frontend (Docker) ---> Backend (Docker) ---> PostgreSQL Database
         |                   |
      Public Subnet     Private Subnet
@@ -59,7 +63,7 @@ Public Subnet     Private Subnet
 │   │   └── dns/
 │   ├── environments/
 │   │   └── prod/
-│   │       └── terraform. tfvars
+│   │       └── terraform.tfvars
 │   └── main.tf
 
 ````
@@ -75,7 +79,7 @@ Make sure you have installed:
 - Git
 - Docker
 
-Log in to Azure:
+Login to Azure:
 
 ```bash
 az login
@@ -178,7 +182,7 @@ terraform destroy
 
 ## 👤 Author
 
-** Abanoub Emad**
+**bill (Abanoub Emad)**
 
 ---
 
