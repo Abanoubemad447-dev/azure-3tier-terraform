@@ -179,7 +179,7 @@ terraform destroy
 
 ## 👤 Author
 
-**bill (Abanoub Emad)**
+**Bill (Abanoub Emad)**
 
 ---
 
